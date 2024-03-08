@@ -1,0 +1,3 @@
+terraform fmt -check -recursive
+cd infrastructure && terraform validate
+tflint
