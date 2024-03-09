@@ -48,7 +48,8 @@ jobs:
             fi
           done
       - name: Validate terraform
-        run: set +e
+        run: |
+          set +e
 
           echo "CHECK_STATUS=0" >> $GITHUB_ENV
 
